@@ -1,0 +1,110 @@
+/* :root {
+  background: red;
+}
+Глобальный селектор для отдельных случаев */
+
+html {
+  max-width: 720px;
+  background: plum;
+}
+
+/* body {
+  background: #fff;
+  background: plum;
+} */
+
+/* * {
+  color: red;
+} */
+
+/* h1,
+h2,
+h3 {
+  color: green;
+} */
+
+.box {
+  background: goldenrod;
+}
+
+#user {
+  color: rgb(255, 0, 234);
+}
+
+/* div > p {
+  color: rgb(162, 80, 255);
+} */
+
+section > h5 {
+  color: aqua;
+}
+
+section > div > p {
+  color: aqua;
+}
+
+hr + h5 {
+  color: rgb(115, 180, 218);
+}
+
+h5 ~ span {
+  color: yellow;
+}
+
+.card-dark {
+  background: rgb(206, 200, 200);
+}
+
+li:last-child {
+  color: blue;
+}
+
+li:first-child {
+  color: blue;
+}
+
+li:only-child {
+  color: rgb(255, 0, 55);
+}
+
+p:last-of-type {
+  color: blueviolet;
+}
+
+p:nth-child(2) {
+  color: red;
+}
+
+.input-dark {
+  background: rgb(138, 135, 135);
+}
+
+.input-dark[required] {
+  background: rgb(228, 128, 128);
+}
+
+.input-dark[type='number'] {
+  background: rgb(128, 228, 153);
+}
+
+.small-img[alt~='small'] {
+  height: 500px;
+}
+
+a[rel~='external'] {
+  color: green;
+}
+
+button[class|='btn'] {
+  background: rgb(204, 0, 255);
+  color: rgb(248, 245, 250);
+}
+
+a[class*='btn'] {
+  background: rgb(255, 0, 21);
+  color: rgb(248, 245, 250);
+}
+
+::selection {
+  background-color: cyan;
+}

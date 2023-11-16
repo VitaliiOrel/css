@@ -1,7 +1,24 @@
-html {
-  max-width: 720px;
+.card > p {
+  color: rgba(214, 61, 61, 0.77);
+  text-align: center;
 }
 
-body {
-  background: #fff;
+.card > em {
+  color: rgba(214, 61, 61, 0.77);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 22px;
+  text-decoration: underline double rgba(255, 0, 0, 0.192);
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  font-display: swap;
+}
+
+span {
+  font-family: 'Prata', serif;
+  font-size: small;
 }
