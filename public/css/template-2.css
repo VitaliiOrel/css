@@ -274,3 +274,29 @@
 .link_item:hover {
   text-decoration: underline;
 }
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+  align-items: center;
+  /* height: 900px; */
+  /* place-content: flex-end center; */
+  /* border: 1px solid red; */
+}
+
+.flex-item {
+  width: 50%;
+  /* background-color: #70b3f6;
+  margin: 15px; */
+}
+
+/* .flex-item:last-of-type {
+  height: 300px;
+}
+
+.flex-item:first-of-type {
+  height: 100px;
+} */

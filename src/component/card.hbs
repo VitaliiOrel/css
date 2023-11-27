@@ -10,14 +10,14 @@
                 / mo
             </span>
         </div>
-        <div class="card-description">
+        <ul class="card-description">
             {{#each features}}
-            <span class="card-description-item">
+            <li class="card-description-item">
                 {{this}}
-            </span>
+            </li>
             {{/each}}
 
-        </div>
+        </ul>
         <div class="card-btn">
             <button class="btn {{#if @first}}btn-outline-primary{{else}}btn-primary{{/if}}">{{button}}</button>
         </div>

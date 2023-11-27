@@ -7,7 +7,6 @@
                     <span><img src='/svg/bs-sl.png'> </span>
 
                 </div>
-
                 <nav class="header_nav col-9">
                     <div class="header_nav_right">
                         {{>nav list=header}}
@@ -36,6 +35,25 @@
 
                 {{/each}}
             </main>
+        </div>
+
+        <div>
+
+            <table class="table">
+                <caption>Footer in the table</caption>
+                <tbody>
+                    {{#each footer}}
+                    <tr>
+                        {{#each links}}
+                        <td>
+                            {{text}}
+                        </td>
+                        {{/each}}
+                    </tr>
+                    {{/each}}
+                </tbody>
+            </table>
+
         </div>
 
         <div class="page_block">
