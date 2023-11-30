@@ -1,0 +1,19 @@
+<div class="box footer">
+
+    <div class="logo-footer">
+        <img src="/svg/bootstrap-solid.png">
+        <span>© 2023</span>
+    </div>
+
+
+    {{#each data}}
+    <div class="column-nav">
+        <span>{{title}}</span>
+        {{#each links}}
+        <a href={{url}}>{{text}}</a>
+        {{/each}}
+    </div>
+    {{/each}}
+
+
+</div>

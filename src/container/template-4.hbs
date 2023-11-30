@@ -1,0 +1,66 @@
+<div class="page">
+
+
+    {{>navhead4 data=header}}
+
+
+    <div class="box">
+        {{#with main}}
+        <div class="img">
+            <img src={{image}}>
+        </div>
+
+        <div class="box vertical">
+
+            <div class="title-1">
+                {{heading}}
+            </div>
+            <p>{{description}}</p>
+            <a href={{href}} class="btn-gray">{{button}}</a>
+        </div>
+        {{/with}}
+    </div>
+
+    <div class="box featured">
+        {{#each featured}}
+        <div class="sCard">
+            <img src={{photo}}>
+            <div class="title-2">{{heading}}</div>
+            <p>{{info}}</p>
+            <a href={{linkUrl}}>{{linkText}}</a>
+        </div>
+        {{/each}}
+    </div>
+
+    <div class="box form">
+        {{#each actions}}
+        <div class="inform">
+            <span>{{heading}}</span>
+            <a href={{url}} class="btn-white">{{text}}</a>
+        </div>
+        {{/each}}
+    </div>
+
+    {{>navfooter4 data=footer}}
+
+    {{!-- <div class="box footer">
+
+        <div class="logo-footer">
+            <img src="/svg/bootstrap-solid.png">
+            <span>© 2023</span>
+        </div>
+
+
+        {{#each footer}}
+        <div class="column-nav">
+            <span>{{title}}</span>
+            {{#each links}}
+            <a href={{url}}>{{text}}</a>
+            {{/each}}
+        </div>
+        {{/each}}
+
+
+    </div> --}}
+
+</div>
