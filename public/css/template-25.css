@@ -1,0 +1,138 @@
+body {
+  font-family: Roboto, sans-serif;
+  /* border: 1px dotted red; */
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* .header {
+  border-bottom: 1px solid gray;
+  margin-bottom: 80px;
+} */
+
+.nav-header {
+  text-align: right;
+  /* margin-left: auto; */
+  /* width: fit-content; */
+  /* max-height: 74px; */
+  padding: auto;
+  line-height: 74px;
+  border-bottom: 1px solid gray;
+  margin-bottom: 80px;
+}
+
+.nav-header a {
+  margin: auto;
+  margin-right: 25px;
+  text-decoration: none;
+}
+
+.nav-header a:hover {
+  text-decoration: underline;
+}
+
+.logo-top {
+  position: relative;
+  top: 25px;
+  left: 25px;
+  float: left;
+}
+
+.main-block img {
+  max-width: 500px;
+  max-height: 500px;
+  border-radius: 12px;
+  position: relative;
+  top: 0;
+  left: 0;
+  /* float: left; */
+}
+
+.main-block {
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-left: 80px;
+  align-items: start;
+  justify-content: center;
+}
+
+.main-title,
+.main-text {
+  color: #5a5a5a;
+}
+
+.main-title {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -0.8px;
+}
+
+.main-btn {
+  display: block;
+  background-color: #6c757d;
+  text-decoration: none;
+  width: 119px;
+  height: 35px;
+  color: #ffffff;
+  font-size: 16px;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.main-btn:hover {
+  background-color: #858e95;
+}
+
+.main-btn:active {
+  color: #adacac;
+}
+
+.card-block {
+  display: flex;
+  border-bottom: 1px solid gray;
+}
+
+.card-feat {
+  padding-left: 26px;
+  padding-right: 26px;
+  width: 33%;
+  margin-bottom: 40px;
+}
+
+.card-feat img {
+  border-radius: 12px;
+}
+
+.card-title {
+  color: #212529;
+  font-size: 31px;
+  font-weight: 500;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.card-feat p {
+  color: #212529;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 170%;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.card-feat a {
+  color: #0d6efd;
+}
+
+.card-feat a:visited {
+  color: #0d6efd;
+}

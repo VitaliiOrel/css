@@ -1,0 +1,57 @@
+<span>test . . .</span>
+
+<div class="box">
+    <span>s1</span>
+    <span>s2</span>
+    <div><span>ss</span></div>
+    <span>s3</span>
+    <div class="inBox">d1</div>
+    <div class="inBox">d2s df </div>
+    <div class="inBox">d3</div>
+    <a href="https://example.com/about" target="_blank" class="btn">Link1</a>
+    <a href="https://example.com/download" target="_blank">Link2</a>
+    <a href="https://example.com/news">Link3</a>
+    <img src="https://picsum.photos/32/16">
+    <img src="https://picsum.photos/32/16">
+    <img src="https://picsum.photos/32/16">
+    <button>btn</button>
+</div>
+
+<div>
+    <span>AfterAll</span>
+</div>
+
+<pre>
+<code>
+    &lt;h1&gt; test &lt;/h1&gt;
+</code>
+</pre>
+
+<iframe src="read.txt" width="200" height="200"></iframe>
+
+span {
+  background-color: azure;
+  width: 50px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inBox {
+  width: 50px;
+}
+
+.box span::first-letter {
+  color: red;
+}
+
+a[target] {
+  color: blueviolet;
+}
+
+a[href="https://example.com/about"]
+{
+  font-weight: 800;
+}
