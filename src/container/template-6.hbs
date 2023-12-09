@@ -1,0 +1,78 @@
+<div class="nav-header">
+    <img class="logo-top" src="/svg/bs-sl.png">
+    {{#each header}}
+    <a href={{url}}>{{text}}</a>
+    {{/each}}
+</div>
+
+<div class="main-form">
+
+    <div class="main-info">
+        <h1>{{info.title}}</h1>
+        <p>
+            {{info.description}}
+        </p>
+
+    </div>
+
+    <div class="main-input">
+
+        <form>
+            {{#with form}}
+            {{#each inputs}}
+            <input type={{type}} placeholder={{placeholder}}>
+            {{/each}}
+            {{!-- <input type="email" placeholder="Email address"> --}}
+            {{!-- <input type="password" placeholder="Password"> --}}
+            <span class="checkbox">
+                <input type="checkbox" id="rememberMe" name="rememberMe">
+                <label for="rememberMe">Remember me</label>
+            </span>
+            <input type="submit" value="Sign up">
+            <hr>
+            <span>
+                By clicking Sign up, you agree to the terms of use.
+            </span>
+
+            {{/with}}
+        </form>
+
+    </div>
+
+</div>
+
+<div class="updates">
+    {{#with updates}}
+    <h6>{{title}}</h6>
+    {{#each list}}
+    <div class="post">
+        <span><img src="/svg/vector.png"></span>
+        <span>@{{nickname}}</span>
+        <p>
+            {{description}}
+        </p>
+    </div>
+    {{/each}}
+
+    <a href="#">All updates</a>
+
+    {{/with}}
+</div>
+
+<div class="bla-bla">
+    {{#with expirience}}
+    <h2>{{title}}</h2>
+
+    <div class="bla-block">
+        {{#each list}}
+        <div class="bla-card">
+            <h5>{{name}}</h5>
+            <p>{{details}}</p>
+        </div>
+        {{/each}}
+
+    </div>
+    {{/with}}
+</div>
+
+{{>navfooter4 data=footer}}
