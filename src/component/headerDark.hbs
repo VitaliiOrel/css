@@ -1,0 +1,13 @@
+<div class="header">
+    <img src="/img/Frame 1018.png">
+    {{#each links}}
+    <a href={{url}}>{{text}}</a>
+    {{/each}}
+</div>
+<div class="underline">
+    {{#with ad}}
+    <span>Ad</span>
+    <span>{{text}}: {{url}}</span>
+    {{/with}}
+    <span>Users online: 15{{userOnline}}</span>
+</div>
