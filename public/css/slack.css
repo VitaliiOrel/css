@@ -1,0 +1,268 @@
+@font-face {
+  font-family: 'HelveticaBold';
+  src: url(/HelveticaNeueBold.ttf);
+}
+
+body {
+  font-family: HelveticaBold, sans-serif;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  align-items: center;
+}
+
+.big-header {
+  width: 1231px;
+  max-width: 1231px;
+  display: flex;
+  gap: 62px;
+  /* border: 1px solid gray; */
+  margin-bottom: 35px;
+}
+
+.header-figure {
+  width: 676px;
+  max-width: 676px;
+}
+
+.header-info {
+  width: 492px;
+  max-width: 492px;
+}
+
+.header-info span {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 16px 0 28px 0;
+}
+
+.header-info p {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+}
+
+.btn-full {
+  display: inline-block;
+  border-radius: 4px;
+  line-height: 53px;
+  text-decoration: none;
+  text-align: center;
+  color: #ffffff;
+  background-color: #611f69;
+  border: 1px solid #611f69;
+  width: 184px;
+  height: 53px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  transition: background-color 0.2s;
+}
+
+.btn-light {
+  display: inline-block;
+  border-radius: 4px;
+  line-height: 53px;
+  text-decoration: none;
+  text-align: center;
+  background-color: #ffffff;
+  color: #611f69;
+  border: 1px solid #611f69;
+  width: 220px;
+  height: 53px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  transition: background-color 0.2s;
+}
+
+.btn-full:hover {
+  background-color: #621f69dc;
+}
+
+.btn-light:hover {
+  background-color: #f2e2f3dc;
+}
+
+.with-logo {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid gray; */
+  width: 1231px;
+  max-width: 1231px;
+  height: 56px;
+  max-height: 56px;
+  padding: 10px 21px 10px 21px;
+}
+
+/* ========= big connect -------------- */
+
+.big-connect {
+  width: 100%;
+  background-color: #f4ede4;
+  height: 1148px;
+  max-height: 1148px;
+}
+
+.connect-info {
+  display: flex;
+  width: 1246px;
+  max-width: 1246px;
+  margin: 0 auto;
+  height: 400px;
+  max-height: 400px;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 135px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  width: 517px;
+  max-width: 517px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: -0.3px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+p {
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.tiles {
+  z-index: 99;
+  position: absolute;
+  top: 250px;
+  left: -35px;
+}
+
+.big-apps {
+  display: flex;
+  background-color: #f4ede4;
+  width: 1230px;
+  height: 400px;
+  max-height: 400px;
+  justify-content: space-between;
+  margin: 0 auto;
+  gap: 130px;
+  position: relative;
+}
+
+.apps {
+  width: 600px;
+  height: 162px;
+  padding: 60px 65px 0 0;
+}
+
+.apps-tiles {
+  position: absolute;
+  top: 205px;
+  left: 0;
+  z-index: 98;
+}
+
+.delivero {
+  display: flex;
+  gap: 38px;
+  max-width: 1020px;
+  margin: 72px auto 48px auto;
+}
+
+.del-info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+h5 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 150%; /* 42px */
+  letter-spacing: -0.3px;
+  margin: 0;
+}
+
+.del-info span {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.explore {
+  margin-top: 107px;
+  margin-bottom: 40px;
+}
+
+.card-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 75px;
+  margin-bottom: 80px;
+}
+
+.card {
+  width: 285px;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.card span {
+  color: #454245;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18.2px; /* 130% */
+  letter-spacing: 0.1px;
+  margin-top: 7px;
+  margin-left: 12px;
+}
+
+h6 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 150%; /* 36px */
+  margin-top: 8px;
+  margin-left: 12px;
+}
+
+.a-card {
+  color: #1264a3;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 15.75px; /* 112.5% */
+  letter-spacing: 0.8px;
+  text-decoration: none;
+  z-index: 90;
+  margin-left: 12px;
+  position: absolute;
+  bottom: 17px;
+}
+
+.a-card:hover {
+  text-decoration: underline;
+}
