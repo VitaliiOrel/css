@@ -1122,7 +1122,22 @@ router.get('/slack', function (req, res) {
 
   //            ↙ cюди вводимо назву файлу з сontainer
   res.render('slack', {
-    layout: 'slack',
+    layout: 'regular',
+    title: '-- slack --',
+    styles: 'slack.css',
+  })
+})
+
+// ================================================================
+//           ↙ тут вводимо шлях (PATH) до сторінки
+router.get('/dashboard', function (req, res) {
+  // res.render генерує нам HTML сторінку
+
+  //            ↙ cюди вводимо назву файлу з сontainer
+  res.render('dashboard', {
+    layout: 'regular',
+    title: '-- dashboard --',
+    styles: 'dashboard.css',
   })
 })
 

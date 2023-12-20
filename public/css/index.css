@@ -1,10 +1,25 @@
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: rgb(0, 0, 0);
+}
+
+.card {
+  background-color: rgb(22, 22, 22);
+  margin-bottom: 10px;
+  border: 1px solid red;
+  border-radius: 80px 80px 20px 5px;
+  box-shadow: 5px 5px 10px 5px rgba(255, 0, 0, 0.25);
+}
+
 .card > p {
-  color: rgba(214, 61, 61, 0.77);
+  color: red;
   text-align: center;
 }
 
 .card > em {
-  color: rgba(214, 61, 61, 0.77);
+  font-size: 1.5em;
+  color: red;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 22px;
@@ -19,6 +34,71 @@ p {
 }
 
 span {
-  font-family: 'Prata', serif;
+  /* font-family: 'Prata', serif; */
+  color: beige;
   font-size: small;
+  text-align: center;
 }
+
+a {
+  display: block;
+  text-align: center;
+  line-height: 40px;
+  height: 40px;
+  width: 250px;
+  color: beige;
+  background-color: rgb(22, 22, 22);
+  text-decoration: none;
+  border: 1px solid red;
+  box-shadow: 5px 5px 10px 5px rgba(255, 0, 0, 0.15);
+  margin-bottom: 10px;
+  border-radius: 0 20px 5px 40px;
+  transition: background-color 0.4s linear;
+}
+
+a:last-of-type {
+  animation: borderAnimation 2s infinite;
+}
+
+a:last-of-type span {
+  animation: fontColorAnimation 2s infinite;
+}
+
+a:hover {
+  background-color: rgb(42, 42, 42);
+}
+
+@keyframes fontColorAnimation {
+  0% {
+    font-size: 12px;
+    color: gray;
+  }
+  50% {
+    font-size: 14px;
+    color: beige;
+  }
+  100% {
+    font-size: 12px;
+    color: gray;
+  }
+}
+
+@keyframes borderAnimation {
+  0% {
+    border-radius: 0 20px 5px 40px;
+    box-shadow: 5px 5px 10px 5px rgba(255, 0, 0, 0.15);
+  }
+  50% {
+    border-radius: 0 15px 5px 32px;
+    box-shadow: 5px 5px 10px 5px rgba(255, 0, 0, 0.35);
+  }
+  100% {
+    border-radius: 0 20px 5px 40px;
+    box-shadow: 5px 5px 10px 5px rgba(255, 0, 0, 0.15);
+  }
+
+.animation {
+  animation: fontColorAnimation 2s infinite;
+}
+
+

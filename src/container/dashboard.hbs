@@ -1,0 +1,175 @@
+<div class="page page--dashboard">
+    <aside class="page_aside aside vertical">
+        <div class="aside_logo">Sidebar</div>
+        <nav class="vertical vertical--small">
+            <a href="#" class="nav_button nav_button--active click">
+                <span class="icon nav_button_icon" style="background-image: url('/svg/home.svg')"></span>
+                <span class="text text--light">Home</span>
+            </a>
+            <a href="#" class="nav_button click">
+                <span class="icon nav_button_icon" style="background-image: url('/svg/orders-nav.svg')"></span>
+                <span class="text text--light">Orders</span>
+            </a>
+            <a href="#" class="nav_button click">
+                <span class="icon nav_button_icon" style="background-image: url('/svg/products-nav.svg')"></span>
+                <span class="text text--light">Products</span>
+            </a>
+        </nav>
+    </aside>
+    <header class="header">
+        <div class="layout header_content text--small">
+            <div class="header_search">
+                <input type="text" placeholder="search" class="field field--header">
+                <span class="icon header_icon_search" style="background-image: url('/svg/search.svg')"></span>
+                <span class="icon icon_header_settings click" style="background-image: url('/svg/set.svg')"></span>
+            </div>
+            <div class="icons_block">
+                <img src="/svg/spot.svg" class="icon_header">
+                <img src="/svg/china.svg" class="icon_header">
+                <img src="/svg/ring.svg" class="icon_header">
+            </div>
+        </div>
+    </header>
+    <main class="main">
+
+
+        <!-- ======== C A R D S =========== -->
+
+        <div class="cardblock">
+
+            <div class="mCard card--earning">
+                <img src="/svg/earning.svg" class="svg_top">
+                <span>$500.00</span>
+                <span class="card_description">Total earning</span>
+            </div>
+
+            <div class="mCard card--order">
+                <img src="/svg/order.svg" class="svg_top">
+                <span>$961</span>
+                <span class="card_description">Total Order</span>
+            </div>
+
+            <div class="mCard card--small card--income">
+                <img src="/svg/income.svg" class="svg_top">
+                <span>$506k</span>
+                <span class="card_description">Total Income</span>
+            </div>
+
+            <div class="mCard card--small card--incomeLight">
+                <img src="/svg/incomelight.svg" class="svg_top">
+                <span>$506k</span>
+                <span class="card_description_light">Total Income</span>
+            </div>
+
+        </div>
+
+        <!-- ======= END CARDS ========= -->
+
+        <div class="block_data">
+
+            <div class="purchase_block">
+                <h3>Purchase list</h3>
+                <hr>
+                <div class="purchase_item">
+                    <span>
+                        ID437661 <br> May 11, 2023, 14:21
+                    </span>
+                    <span>
+                        AirOn ProCam <br> 7/8 USB Type-C
+                    </span>
+                    <span>
+                        132.32 EUR <br> <span class="alert--info">Not paid</span>
+                    </span>
+                    <span>
+                        Customer <br> robin@com.de
+                    </span>
+                </div>
+                <hr>
+                <div class="purchase_item">
+                    <span>
+                        ID437662 <br> May 11, 2023, 14:23
+                    </span>
+                    <span>
+                        PHILIPS Essential <br> HD9200/90
+                    </span>
+                    <span>
+                        543 USD <br> <span class="comfirm--info">Pay by Stripe</span>
+                    </span>
+                    <span>
+                        Customer <br> dyma@com.cz
+                    </span>
+                </div>
+
+            </div>
+
+            <div class="payment_block">
+
+                <div class="payment_block_header">
+                    <h3>Payment</h3>
+                </div>
+
+                <div class="payment_block_radio">
+                    <label>
+                        <input type="radio" checked>
+                        Credit card
+                    </label><br>
+                    <label>
+                        <input type="radio">
+                        Debit card
+                    </label><br>
+                    <label>
+                        <input type="radio">
+                        PayPal
+                    </label><br>
+                </div>
+
+                <div class="payment_block_cardholder">
+                    <label>Name on card</label><br>
+                    <input type="text" class="field">
+                </div>
+
+                <div class="payment_block_cardnumber">
+                    <label> card</label>
+                    <input type="text" class="field">
+                </div>
+
+                <div class="payment_block_cardexp">
+                    <label> cardEXP</label>
+                    <input type="text" class="field">
+                </div>
+
+                <div class="payment_block_cardcvv">
+                    <label> cvv</label>
+                    <input type="text" class="field">
+                </div>
+
+
+
+                <div class="payment_block_country">
+                    <label for="mySelect">Country:</label><br>
+                    <select class="field_select" id="mySelect" name="mySelect">
+                        <option value="option1">Choose...</option>
+                        <option value="option2">Опция 1</option>
+                        <option value="option3">Опция 2</option>
+                    </select>
+                </div>
+
+                <div class="payment_block_state">
+                    <label for="mySelect">State:</label><br>
+                    <select class="field_select" id="mySelect" name="mySelect">
+                        <option value="option1">Choose...</option>
+                        <option value="option2">Опция 1</option>
+                        <option value="option3">Опция 2</option>
+                    </select>
+                </div>
+
+                <div class="payment_block_button">
+                    <button class="button_primary click">Continue to checkout</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+</div>
